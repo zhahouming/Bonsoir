@@ -1,0 +1,1 @@
+import{h as e,o,i as t,n as c}from"./entry.55bc9541.js";const r={name:"SkiIcon",props:{icon:{type:String,required:!0}}};function s(a,i,n,_,p,l){return o(),t("i",{class:c(["bi",`bi-${n.icon}`])},null,2)}const u=e(r,[["render",s]]);export{u as _};
