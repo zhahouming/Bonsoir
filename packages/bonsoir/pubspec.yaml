@@ -4,6 +4,7 @@ homepage: https://bonsoir.skyost.eu
 repository: https://github.com/Skyost/Bonsoir/tree/master/packages/bonsoir
 issue_tracker: https://github.com/Skyost/Bonsoir/issues
 version: 5.1.1
+publish_to: none
 funding:
  - https://ko-fi.com/Skyost
  - https://paypal.me/Skyost
@@ -18,11 +19,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bonsoir_platform_interface: ^5.1.0
-  bonsoir_android: ^5.1.0
-  bonsoir_darwin: ^5.1.0
-  bonsoir_windows: ^5.1.0
-  bonsoir_linux: ^5.1.0
+  bonsoir_platform_interface: 
+    path: ../bonsoir_platform_interface/
+  bonsoir_android:
+    path: ../bonsoir_android/
+  bonsoir_darwin:
+    path: ../bonsoir_darwin/
+  bonsoir_windows:
+    path: ../bonsoir_windows/
 
 dev_dependencies:
   flutter_lints: ^3.0.1
@@ -38,5 +42,3 @@ flutter:
         default_package: bonsoir_darwin
       windows:
         default_package: bonsoir_windows
-      linux:
-        default_package: bonsoir_linux
